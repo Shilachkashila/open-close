@@ -1,0 +1,84 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* контентттттттттттттттттттт */
+
+.mine {
+    max-width: 1440px;
+    min-width: 320px;
+}
+.cards__visible {
+    overflow: hidden;
+    height: 390px;
+    padding-top: 20px;
+}
+.cards__visible_full
+ {
+  overflow: hidden;
+  padding-top: 20px;
+}
+.cards {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.cards__wrapper {
+    width: 30%;
+    min-width: 290px;
+    height: 355px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+.cards__cnt {
+    box-sizing: border-box;
+    display: flex;
+    min-width: 270px;
+    height: 355px;
+    padding: 25px 15px;
+    border-top:1px solid #C4C4C4;
+    border-left:1px solid #C4C4C4;
+    transition: 1s; /* Время эффекта */
+}
+.cards__cnt:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+.cards__icon {
+    margin-right: 10px;
+}
+.cards__text {
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.cards__title {
+    margin-bottom: 10px;
+}
+.cards__btn_cnt {
+  display: flex;
+  justify-content: center;
+}
+.cards__btn {
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    user-select: none;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.f {
+   height: 355px;
+   background-color: #00BCD3;
+}
